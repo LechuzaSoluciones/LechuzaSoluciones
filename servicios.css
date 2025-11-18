@@ -151,10 +151,14 @@ h1, h2, h3, a, .btn-principal, .btn-info {
 .servicio:nth-child(3) { animation-delay: .6s; }
 
 .servicio img {
-  max-width: 300px;
+  width: 100%;
+  height: 200px;      
+  object-fit: cover;  
   border-radius: 8px;
   margin-bottom: 10px;
+  display: block;
 }
+
 
 .servicio h3 {
   font-size: 1.2em;
@@ -239,3 +243,4 @@ h1, h2, h3, a, .btn-principal, .btn-info {
   .main-footer { padding: 25px 10px; }
   .main-footer p { font-size: .9em; }
 }
+
